@@ -2,7 +2,7 @@ import urllib2
 import urllib
 import re, sys, os, time
 from multiprocessing import Pool
-
+#0918 by cuoge.
 def writeTask(imgx,fileFullName):
     urllib.urlretrieve(imgx,fileFullName )
 
